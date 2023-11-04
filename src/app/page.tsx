@@ -4,7 +4,7 @@ import Header from "../../components/header/header";
 
 export default function Home() {
   return (
-    <ul className="h-96 bg-slate-800 rounded-lg p-5">
+    <ul>
       <li className="flex gap-4 items-center border-b p-2">
         <input type="radio" id="todo" className="h-5 w-5 rounded" />
         <label htmlFor="todo" className="text-xl line-through">
